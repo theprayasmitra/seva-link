@@ -20,12 +20,12 @@ const Navigation = () => {
       submenu: [
         { label: "Our Story", href: "/about/story" },
         { label: "How It Works", href: "/about/how-it-works" },
-        { label: "Impact & Transparency", href: "about/transparency" }
+        { label: "Impact & Transparency", href: "/about/transparency" }
       ]
     },
     {
       label: "For Donors",
-      href: "/donors",
+      href: "",
       submenu: [
         { label: "Find NGOs", href: "/find-ngos" },
         { label: "Track Contributions", href: "/track" },
@@ -34,16 +34,16 @@ const Navigation = () => {
     },
     {
       label: "For NGOs",
-      href: "/ngos",
+      href: "",
       submenu: [
-        { label: "List Your NGO", href: "/list-ngo" },
-        { label: "Manage Projects", href: "/manage" },
-        { label: "NGO Dashboard", href: "/ngo-dashboard" }
+        { label: "List Your NGO", href: "/ngos/list-ngo" },
+        { label: "Manage Projects", href: "/ngos/manage" },
+        { label: "NGO Dashboard", href: "/ngos/ngo-dashboard" }
       ]
     },
     {
       label: "Get Involved",
-      href: "/get-involved",
+      href: "",
       submenu: [
         { label: "Volunteer", href: "/volunteer" },
         { label: "Events", href: "/events" },
@@ -52,11 +52,11 @@ const Navigation = () => {
     },
     {
       label: "Resources",
-      href: "/resources",
+      href: "",
       submenu: [
-        { label: "Success Stories", href: "/stories" },
-        { label: "Reports & Certificates", href: "/reports" },
-        { label: "ESG & SDG Mapping", href: "/esg" }
+        { label: "Success Stories", href: "/resources/stories" },
+        { label: "Reports & Certificates", href: "/resources/reports" },
+        { label: "ESG & SDG Mapping", href: "/resources/esg" }
       ]
     }
   ];
