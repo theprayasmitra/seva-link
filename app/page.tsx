@@ -1,11 +1,16 @@
 "use client"
 
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import Navigation from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Heart, Users, Award, Search, BarChart3, ArrowRight, Play } from "lucide-react"
+import { Heart, Users, Award, Search, BarChart3, BookOpen, Briefcase, Leaf, Shield, ArrowRight, Play } from "lucide-react"
+import Programs from "@/components/programs";
+import ImpactStats from "@/components/impact-stats";
+import SDGSection from "@/components/sdg-section";
 
 export default function HomePage() {
   return (
@@ -102,6 +107,12 @@ export default function HomePage() {
           {/* Scroll Indicator */}
         </div>
       </section>
+
+      <ImpactStats />
+
+      <Programs />
+
+      <SDGSection />
 
       <Footer />
     </div>

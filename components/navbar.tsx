@@ -18,9 +18,9 @@ const Navigation = () => {
       label: "About SevaLink",
       href: "",
       submenu: [
-        { label: "Our Story", href: "/about" },
-        { label: "How It Works", href: "/how-it-works" },
-        { label: "Impact & Transparency", href: "/transparency" }
+        { label: "Our Story", href: "/about/story" },
+        { label: "How It Works", href: "about/how-it-works" },
+        { label: "Impact & Transparency", href: "about/transparency" }
       ]
     },
     {
