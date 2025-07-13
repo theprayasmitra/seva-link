@@ -19,7 +19,7 @@ const Navigation = () => {
       href: "",
       submenu: [
         { label: "Our Story", href: "/about/story" },
-        { label: "How It Works", href: "about/how-it-works" },
+        { label: "How It Works", href: "/about/how-it-works" },
         { label: "Impact & Transparency", href: "about/transparency" }
       ]
     },
