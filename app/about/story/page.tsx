@@ -38,7 +38,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              About <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">SevaLink</span>
+              About SevaLink
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Transforming Compassion into Measurable Change
@@ -66,7 +66,7 @@ const About = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <Button variant="cta" size="lg" asChild>
+                <Button variant="hero" size="lg" asChild>
                   <Link href="/how-it-works">See How It Works</Link>
                 </Button>
               </div>

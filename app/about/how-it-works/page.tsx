@@ -20,29 +20,29 @@ const steps = [
     icon: <Search className="w-8 h-8" />,
     title: "Discover Your Cause",
     description: "Explore verified projects by theme (education, health, environment, and more), city, or UN SDG. Every listing is vetted for compliance and impact.",
-    color: "text-accent",
-    bgColor: "bg-accent/10"
+    color: "text-primary",
+    bgColor: "bg-primary/10"
   },
   {
     icon: <Heart className="w-8 h-8" />,
     title: "Contribute or Volunteer",
     description: "Donate securely through our payment gateway, or pledge your time and skills to causes that inspire you.",
-    color: "text-impact-health",
-    bgColor: "bg-impact-health/10"
+    color: "text-primary",
+    bgColor: "bg-primary/10"
   },
   {
     icon: <BarChart3 className="w-8 h-8" />,
     title: "Track Your Impact",
     description: "Follow your contribution with live dashboards, milestone updates, and downloadable reports. See photos, invoices, and real stories from the ground.",
-    color: "text-impact-livelihood",
-    bgColor: "bg-impact-livelihood/10"
+    color: "text-primary",
+    bgColor: "bg-primary/10"
   },
   {
     icon: <Award className="w-8 h-8" />,
     title: "Celebrate and Share",
     description: "Receive auto-generated certificates, climb our leaderboards, and share your journey—because every act of kindness deserves to be recognized.",
-    color: "text-impact-education",
-    bgColor: "bg-impact-education/10"
+    color: "text-primary",
+    bgColor: "bg-primary/10"
   }
 ];
 
@@ -56,7 +56,7 @@ const HowItWorks = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              How <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">It Works</span>
+              How It Works
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Giving Made Effortless, Impact Made Visible. Follow these simple steps to start creating measurable change.
