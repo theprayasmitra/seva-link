@@ -25,7 +25,7 @@ const Navigation = () => {
     },
     {
       label: "For Donors",
-      href: "",
+      href: "/donors",
       submenu: [
         { label: "Find NGOs", href: "/donors/find-ngos" },
         { label: "Track Contributions", href: "/donors/track" },
