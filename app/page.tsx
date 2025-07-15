@@ -36,7 +36,7 @@ export default function HomePage() {
                 Transforming Compassion into Measurable Change
               </h1>
               
-              <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
+              <p className="text-lg md:text-xl text-primary mb-8 max-w-2xl">
                 SevaLink bridges the gap between conscientious companies, generous individuals, 
                 and grassroots NGOs to create a transparent, accountable, and inspiring ecosystem of change.
               </p>
@@ -85,12 +85,12 @@ export default function HomePage() {
             </div>
             
             {/* Floating Cards */}
-            <div className="absolute -top-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
+            <div className="absolute -top-4 -right-4 bg-white p-4 rounded-xl shadow-lg animate-bounce">
               <div className="text-2xl font-bold text-primary">₹2.5Cr+</div>
               <div className="text-sm text-muted-foreground">Impact Created</div>
             </div>
             
-            <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-xl shadow-lg">
+            <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-xl shadow-lg animate-bounce">
               <div className="text-2xl font-bold text-primary">1000+</div>
               <div className="text-sm text-muted-foreground">Lives Touched</div>
             </div>
