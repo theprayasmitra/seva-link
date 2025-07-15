@@ -18,7 +18,7 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-hero-gradient overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-customGreen">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
         <div className="absolute inset-0 opacity-30" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23059669' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
@@ -28,19 +28,12 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
             <div className="text-center lg:text-left">
-              <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6">
-                <span>🇮🇳 India's Platform for Purposeful Giving</span>
+              <div className="inline-flex items-center px-4 py-2 bg-white/50 rounded-full text-sm font-medium mb-6">
+                <span className="text-black">🇮🇳 India's Platform for Purposeful Giving</span>
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-                Transforming{" "}
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  Compassion
-                </span>{" "}
-                into Measurable{" "}
-                <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-                  Change
-                </span>
+                Transforming Compassion into Measurable Change
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
@@ -68,15 +61,15 @@ export default function HomePage() {
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full" />
-                <span>100% Transparent</span>
+                <span className="text-black">100% Transparent</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-accent rounded-full" />
-                <span>Real-time Tracking</span>
+                <div className="w-2 h-2 bg-[#989898] rounded-full" />
+                <span className="text-black">Real-time Tracking</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-impact-education rounded-full" />
-                <span>Verified NGOs</span>
+                <div className="w-2 h-2 bg-[#ffffff] rounded-full" />
+                <span className="text-black">Verified NGOs</span>
               </div>
             </div>
           </div>
@@ -98,7 +91,7 @@ export default function HomePage() {
             </div>
             
             <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-xl shadow-lg">
-              <div className="text-2xl font-bold text-accent">1000+</div>
+              <div className="text-2xl font-bold text-primary">1000+</div>
               <div className="text-sm text-muted-foreground">Lives Touched</div>
             </div>
           </div>

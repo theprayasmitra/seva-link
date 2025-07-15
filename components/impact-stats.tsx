@@ -76,29 +76,29 @@ const ImpactStats = () => {
       number: "3000+",
       label: "VILLAGES",
       description: "and slums are reached out to across the country",
-      color: "text-accent"
+      color: "text-primary"
     },
     {
       number: "500+",
       label: "PROJECTS",
       description: "focused on education, healthcare, and women empowerment",
-      color: "text-impact-education"
+      color: "text-primary"
     },
     {
       number: "28+",
       label: "STATES",
       description: "are reached including the remotest areas",
-      color: "text-impact-health"
+      color: "text-primary"
     }
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-section-gradient">
+    <section className="py-16 md:py-24 bg-[#9aff8d]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Our <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Impact</span>
+            Our Impact
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Every contribution through SevaLink creates ripples of positive change across India. 
@@ -121,14 +121,14 @@ const ImpactStats = () => {
 
         {/* Promise Statement */}
         <div className="mt-16 text-center">
-          <div className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl border border-primary/20">
+          <div className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-primary/10 to-primary/10 rounded-2xl border border-primary/20">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Our Promise to You
             </h3>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-primary">
               Every rupee you contribute is tracked from the moment it leaves your hands until it touches lives. 
               With SevaLink, you always know the difference you are making—because{" "}
-              <span className="font-semibold text-primary">impact should be seen, not just hoped for.</span>
+              <span className="font-bold text-primary">impact should be seen, not just hoped for.</span>
             </p>
           </div>
         </div>

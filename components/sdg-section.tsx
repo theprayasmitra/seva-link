@@ -4,46 +4,43 @@ const sdgGoals = [
   {
     number: "3",
     title: "Good Health & Well Being",
-    color: "bg-[#4C9F38]"
+    color: "bg-[#478861]"
   },
   {
     number: "4", 
     title: "Quality Education",
-    color: "bg-[#C5192D]"
+    color: "bg-[#4e8847]"
   },
   {
     number: "5",
     title: "Gender Equality", 
-    color: "bg-[#FF3A21]"
+    color: "bg-[#4C9F38]"
   },
   {
     number: "8",
     title: "Decent Work & Economic Growth",
-    color: "bg-[#A21942]"
+    color: "bg-[#71d166]"
   },
   {
     number: "10",
     title: "Reduced Inequalities",
-    color: "bg-[#DD1367]"
+    color: "bg-[#65bab1]"
   },
   {
     number: "17",
     title: "Partnerships for the Goals",
-    color: "bg-[#19486A]"
+    color: "bg-[#6599ba]"
   }
 ];
 
 const SDGSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-16 md:py-24 bg-[#e1ffde]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Towards Achieving{" "}
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Sustainable Development Goals
-            </span>
+            Towards Achieving Sustainable Development Goals
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Our work aligns with the United Nations Sustainable Development Goals, 
@@ -74,7 +71,7 @@ const SDGSection = () => {
 
         {/* Impact Statement */}
         <div className="mt-16 text-center">
-          <div className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl border border-primary/10">
+          <div className="max-w-4xl mx-auto p-8 bg-gradient-to-r from-primary/5 to-primary/5 rounded-2xl border border-primary/10">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Track Your SDG Impact
             </h3>

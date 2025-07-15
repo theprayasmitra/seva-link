@@ -73,7 +73,7 @@ const Footer = () => {
                 placeholder="Enter your email"
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
               />
-              <Button variant="cta" size="lg">
+              <Button variant="outline" size="lg" className="text-black">
                 Subscribe
               </Button>
             </div>

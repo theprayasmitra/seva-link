@@ -113,7 +113,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="cta" size="lg" asChild>
+            <Button variant="hero" size="lg" asChild>
               <Link href="/donate">Support a Cause</Link>
             </Button>
           </div>
