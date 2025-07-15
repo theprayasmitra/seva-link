@@ -34,7 +34,7 @@ const Navigation = () => {
     },
     {
       label: "For NGOs",
-      href: "",
+      href: "/ngos",
       submenu: [
         { label: "List Your NGO", href: "/ngos/list-ngo" },
         { label: "Manage Projects", href: "/ngos/manage" },
@@ -45,9 +45,9 @@ const Navigation = () => {
       label: "Get Involved",
       href: "",
       submenu: [
-        { label: "Volunteer", href: "/volunteer" },
-        { label: "Events", href: "/events" },
-        { label: "Corporate Partnerships", href: "/partnerships" }
+        { label: "Volunteer", href: "/volunteer/volunteer" },
+        { label: "Events", href: "/volunteer/events" },
+        { label: "Corporate Partnerships", href: "/volunteer/partnerships" }
       ]
     },
     {
